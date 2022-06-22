@@ -58,6 +58,65 @@ let collegeBD = [
       },
     ],
   },
+  {
+    carrera: "Ing Mecanica",
+    semestres: 10,
+    materias: [
+      "mecánica de materiales",
+      "elementos finitos",
+      "dináica",
+      "mecánica de fluidos",
+    ],
+    creditos: 60,
+    maestros: [
+      {
+        nombre: "Miguel Montoya",
+        edad: "21",
+        profesion: ["Ingeniero mecánico", "Ingeniero de materiales"],
+      },
+      {
+        nombre: "Adriana Esguerra",
+        edad: "19",
+        profesion: ["Ingeniera de materiales"],
+      },
+      {
+        nombre: "Camilo Hernandez",
+        edad: "28",
+        profesion: [
+          "Ingeniero mecánico",
+          "especializacion en elementos finitos",
+          "Master en Diesño",
+        ],
+      },
+    ],
+    estudiantes: [
+      {
+        nombre: "Julian Diaz",
+        edad: 21,
+        semestre: 10,
+      },
+      {
+        nombre: "Andres Paez",
+        edad: 25,
+        semestre: 11,
+      },
+      {
+        nombre: "Miguel Fontanarosa",
+        edad: 19,
+        semestre: 1,
+      },
+      {
+        nombre: "Armando Rozo",
+        edad: 17,
+        semestre: 8,
+      },
+      {
+        nombre: "Lucia Fernada Andrade",
+        edad: 29,
+        semestre: 2,
+      },
+    ],
+  },
 ];
 
 //Punto 1
