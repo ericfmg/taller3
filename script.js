@@ -1,4 +1,4 @@
-let collegeBD = [
+ let collegeBD = [
   {
     carrera: "Ing Sistemas",
     semestres: 10,
@@ -214,4 +214,37 @@ for (let i = 0; i <= collegeBD.length - 1; i++) {
   console.log(
     `El/La estudiante ${est} es el/la más antuguo/a de la carrera de ${collegeBD[i].carrera} `
   );
+}
+
+
+let num = parseInt(prompt('Escribe un numero'))
+let lastDigit = num % 10
+
+document.write(`El ultimo numero de ${num} es ${lastDigit}`)
+ 
+
+for (let i = 0 ; i<=200;i++){
+  let num = i
+  let hexa=num.toString(16)
+  document.write(`${hexa} <br/>`)
+} 
+
+
+for (let i = 0 ; i<=15;i++){
+ 
+ 
+  let div = parseInt(String(i/16))
+  let red = i % 16
+  red = red.toString()
+let led=red
+  if (led=10||11||12||13||14||15){
+    num = red.replace(10,'A').replace(11,'B').replace(12,'C').replace(13,'D').replace(14,'E').replace(15,'F')
+  }
+
+  if (div==0){
+    console.log(`${num} `)
+  }else{
+    console.log(`${div}${num} `)
+  }
+  
 }
