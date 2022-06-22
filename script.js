@@ -223,6 +223,8 @@ let lastDigit = num % 10
 document.write(`El ultimo numero de ${num} es ${lastDigit}`)
  
 
+/* Hexadecimales */
+
 for (let i = 0 ; i<=200;i++){
   let num = i
   let hexa=num.toString(16)
